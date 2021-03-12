@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/btcsuite/btcd/rpcclient"
+	"github.com/bitgesellofficial/bgld/rpcclient"
 )
 
 func main() {

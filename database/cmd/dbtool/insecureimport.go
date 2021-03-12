@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
+	"github.com/bitgesellofficial/bgld/database"
+	"github.com/bitgesellofficial/bgld/wire"
 	"github.com/btcsuite/btcutil"
 )
 

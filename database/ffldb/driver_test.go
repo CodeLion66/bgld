@@ -11,9 +11,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/database/ffldb"
+	"github.com/bitgesellofficial/bgld/chaincfg"
+	"github.com/bitgesellofficial/bgld/database"
+	"github.com/bitgesellofficial/bgld/database/ffldb"
 	"github.com/btcsuite/btcutil"
 )
 

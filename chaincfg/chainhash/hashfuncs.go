@@ -6,6 +6,7 @@
 package chainhash
 
 import "crypto/sha256"
+import "github.com/ebfe/keccak"
 
 // HashB calculates hash(b) and returns the resulting bytes.
 func HashB(b []byte) []byte {
@@ -30,4 +31,19 @@ func DoubleHashB(b []byte) []byte {
 func DoubleHashH(b []byte) Hash {
 	first := sha256.Sum256(b)
 	return Hash(sha256.Sum256(first[:]))
+}
+
+// HashKeccakH calculates hash(b) and returns the resulting bytes as a Hash.
+func HashKeccakH(b []byte) Hash {
+	hasher := keccak.New256()
+	hasher.Write(b)
+	hash, _ := NewHash(hasher.Sum(nil))
+	return *hash
+}
+
+// HashKeccakH calculates hash(b) and returns the resulting bytes
+func HashKeccakB(b []byte) []byte {
+	hasher := keccak.New256()
+	hasher.Write(b)
+	return hasher.Sum(nil)[:]
 }

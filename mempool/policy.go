@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitgesellofficial/bgld/blockchain"
+	"github.com/bitgesellofficial/bgld/txscript"
+	"github.com/bitgesellofficial/bgld/wire"
 	"github.com/btcsuite/btcutil"
 )
 

@@ -8,10 +8,10 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/btcsuite/btcd/btcjson"
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitgesellofficial/bgld/btcjson"
+	"github.com/bitgesellofficial/bgld/chaincfg"
+	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
+	"github.com/bitgesellofficial/bgld/wire"
 	"github.com/btcsuite/btcutil"
 )
 

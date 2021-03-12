@@ -11,10 +11,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/btcsuite/btcd/chaincfg"
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
+	"github.com/bitgesellofficial/bgld/chaincfg"
+	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
+	"github.com/bitgesellofficial/bgld/txscript"
+	"github.com/bitgesellofficial/bgld/wire"
 	"github.com/btcsuite/btcutil"
 )
 

@@ -24,7 +24,7 @@ import (
 	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
 	"github.com/bitgesellofficial/bgld/txscript"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 const (

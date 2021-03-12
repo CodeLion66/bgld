@@ -12,7 +12,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // AddMultisigAddressCmd defines the addmutisigaddress JSON-RPC command.

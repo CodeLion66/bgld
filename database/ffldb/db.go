@@ -18,7 +18,7 @@ import (
 	"github.com/bitgesellofficial/bgld/database"
 	"github.com/bitgesellofficial/bgld/database/internal/treap"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/comparer"
 	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"

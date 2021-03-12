@@ -20,7 +20,7 @@ import (
 	"github.com/bitgesellofficial/bgld/chaincfg"
 	"github.com/bitgesellofficial/bgld/database"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 	"github.com/btcsuite/goleveldb/leveldb"
 	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
 )

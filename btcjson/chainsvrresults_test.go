@@ -11,7 +11,7 @@ import (
 
 	"github.com/bitgesellofficial/bgld/btcjson"
 	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 	"github.com/davecgh/go-spew/spew"
 )
 

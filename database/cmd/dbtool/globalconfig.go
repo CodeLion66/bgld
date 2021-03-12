@@ -14,7 +14,7 @@ import (
 	"github.com/bitgesellofficial/bgld/database"
 	_ "github.com/bitgesellofficial/bgld/database/ffldb"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 var (

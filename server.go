@@ -36,8 +36,8 @@ import (
 	"github.com/bitgesellofficial/bgld/peer"
 	"github.com/bitgesellofficial/bgld/txscript"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/bloom"
+	"github.com/bitgesellofficial/bglutil"
+	"github.com/bitgesellofficial/bglutil/bloom"
 )
 
 const (

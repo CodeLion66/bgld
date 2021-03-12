@@ -40,7 +40,7 @@ import (
 	"github.com/bitgesellofficial/bgld/peer"
 	"github.com/bitgesellofficial/bgld/txscript"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 	"github.com/btcsuite/websocket"
 )
 

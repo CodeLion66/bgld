@@ -14,7 +14,7 @@ import (
 	"github.com/bitgesellofficial/bgld/chaincfg"
 	"github.com/bitgesellofficial/bgld/database"
 	"github.com/bitgesellofficial/bgld/database/ffldb"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // dbType is the database type name for this driver.

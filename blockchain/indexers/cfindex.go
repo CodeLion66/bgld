@@ -12,9 +12,9 @@ import (
 	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
 	"github.com/bitgesellofficial/bgld/database"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/gcs"
-	"github.com/btcsuite/btcutil/gcs/builder"
+	"github.com/bitgesellofficial/bglutil"
+	"github.com/bitgesellofficial/bglutil/gcs"
+	"github.com/bitgesellofficial/bglutil/gcs/builder"
 )
 
 const (

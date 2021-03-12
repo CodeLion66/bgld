@@ -11,7 +11,7 @@ import (
 	"github.com/bitgesellofficial/bgld/blockchain"
 	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // newHashFromStr converts the passed big-endian hex string into a

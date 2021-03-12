@@ -15,7 +15,7 @@ import (
 	"time"
 
 	rpc "github.com/bitgesellofficial/bgld/rpcclient"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // nodeConfig contains all the args, and data required to launch a btcd process

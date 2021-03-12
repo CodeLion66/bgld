@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/bitgesellofficial/bgld/btcjson"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // TestWalletSvrCmds tests all of the wallet server commands marshal and

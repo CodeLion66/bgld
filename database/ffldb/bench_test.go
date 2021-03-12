@@ -11,7 +11,7 @@ import (
 
 	"github.com/bitgesellofficial/bgld/chaincfg"
 	"github.com/bitgesellofficial/bgld/database"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // BenchmarkBlockHeader benchmarks how long it takes to load the mainnet genesis

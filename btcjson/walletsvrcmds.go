@@ -1011,7 +1011,7 @@ type PsbtOutput map[string]interface{}
 
 // NewPsbtOutput returns a new instance of a PSBT output to use with the
 // WalletCreateFundedPsbtCmd command.
-func NewPsbtOutput(address string, amount btcutil.Amount) PsbtOutput {
+func NewPsbtOutput(address string, amount bglutil.Amount) PsbtOutput {
 	return PsbtOutput{address: amount.ToBTC()}
 }
 

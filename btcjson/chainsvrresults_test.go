@@ -126,8 +126,8 @@ func TestGetTxOutSetInfoResult(t *testing.T) {
 					return *h
 				}(),
 				DiskSize: 1,
-				TotalAmount: func() btcutil.Amount {
-					a, err := btcutil.NewAmount(0.2)
+				TotalAmount: func() bglutil.Amount {
+					a, err := bglutil.NewAmount(0.2)
 					if err != nil {
 						panic(err)
 					}

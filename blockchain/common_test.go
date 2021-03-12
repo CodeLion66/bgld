@@ -20,7 +20,7 @@ import (
 	_ "github.com/bitgesellofficial/bgld/database/ffldb"
 	"github.com/bitgesellofficial/bgld/txscript"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 const (

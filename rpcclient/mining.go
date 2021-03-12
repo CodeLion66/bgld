@@ -11,7 +11,7 @@ import (
 
 	"github.com/bitgesellofficial/bgld/btcjson"
 	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // FutureGenerateResult is a future promise to deliver the result of a

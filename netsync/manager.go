@@ -19,7 +19,7 @@ import (
 	"github.com/bitgesellofficial/bgld/mempool"
 	peerpkg "github.com/bitgesellofficial/bgld/peer"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 const (

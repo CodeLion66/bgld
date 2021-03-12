@@ -18,7 +18,7 @@ import (
 
 	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
 	"github.com/bitgesellofficial/bgld/mining"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model

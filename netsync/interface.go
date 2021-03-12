@@ -11,7 +11,7 @@ import (
 	"github.com/bitgesellofficial/bgld/mempool"
 	"github.com/bitgesellofficial/bgld/peer"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // PeerNotifier exposes methods to notify peers of status changes to

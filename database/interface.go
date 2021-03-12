@@ -9,7 +9,7 @@ package database
 
 import (
 	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // Cursor represents a cursor over key/value pairs and nested buckets of a

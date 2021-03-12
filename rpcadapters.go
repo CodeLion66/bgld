@@ -13,7 +13,7 @@ import (
 	"github.com/bitgesellofficial/bgld/netsync"
 	"github.com/bitgesellofficial/bgld/peer"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // rpcPeer provides a peer for use with the RPC server and implements the

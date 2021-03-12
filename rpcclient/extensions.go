@@ -15,7 +15,7 @@ import (
 	"github.com/bitgesellofficial/bgld/btcjson"
 	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 )
 
 // FutureDebugLevelResult is a future promise to deliver the result of a

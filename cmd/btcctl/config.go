@@ -15,7 +15,7 @@ import (
 
 	"github.com/bitgesellofficial/bgld/btcjson"
 	"github.com/bitgesellofficial/bgld/chaincfg"
-	"github.com/btcsuite/btcutil"
+	"github.com/bitgesellofficial/bglutil"
 	flags "github.com/jessevdk/go-flags"
 )
 

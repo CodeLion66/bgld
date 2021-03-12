@@ -17,8 +17,8 @@ import (
 	"github.com/bitgesellofficial/bgld/rpcclient"
 	"github.com/bitgesellofficial/bgld/txscript"
 	"github.com/bitgesellofficial/bgld/wire"
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/hdkeychain"
+	"github.com/bitgesellofficial/bglutil"
+	"github.com/bitgesellofficial/bglutil/hdkeychain"
 )
 
 var (

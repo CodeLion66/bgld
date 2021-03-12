@@ -362,7 +362,8 @@ func calcHashPrevOuts(tx *wire.MsgTx) chainhash.Hash {
 		b.Write(buf[:])
 	}
 
-	return chainhash.DoubleHashH(b.Bytes())
+	//return chainhash.DoubleHashH(b.Bytes())
+	return chainhash.HashKeccakH(b.Bytes())
 }
 
 // calcHashSequence computes an aggregated hash of each of the sequence numbers
@@ -379,7 +380,8 @@ func calcHashSequence(tx *wire.MsgTx) chainhash.Hash {
 		b.Write(buf[:])
 	}
 
-	return chainhash.DoubleHashH(b.Bytes())
+	//return chainhash.DoubleHashH(b.Bytes())
+	return chainhash.HashKeccakH(b.Bytes())
 }
 
 // calcHashOutputs computes a hash digest of all outputs created by the
@@ -393,7 +395,8 @@ func calcHashOutputs(tx *wire.MsgTx) chainhash.Hash {
 		wire.WriteTxOut(&b, 0, 0, out)
 	}
 
-	return chainhash.DoubleHashH(b.Bytes())
+	//return chainhash.DoubleHashH(b.Bytes())
+	return chainhash.HashKeccakH(b.Bytes())
 }
 
 // calcWitnessSignatureHash computes the sighash digest of a transaction's
@@ -495,7 +498,8 @@ func calcWitnessSignatureHash(subScript []parsedOpcode, sigHashes *TxSigHashes,
 	} else if hashType&sigHashMask == SigHashSingle && idx < len(tx.TxOut) {
 		var b bytes.Buffer
 		wire.WriteTxOut(&b, 0, 0, tx.TxOut[idx])
-		sigHash.Write(chainhash.DoubleHashB(b.Bytes()))
+		//sigHash.Write(chainhash.DoubleHashB(b.Bytes()))
+		sigHash.Write(chainhash.HashKeccakB(b.Bytes()))
 	} else {
 		sigHash.Write(zeroHash[:])
 	}
@@ -509,7 +513,8 @@ func calcWitnessSignatureHash(subScript []parsedOpcode, sigHashes *TxSigHashes,
 	binary.LittleEndian.PutUint32(bHashType[:], uint32(hashType))
 	sigHash.Write(bHashType[:])
 
-	return chainhash.DoubleHashB(sigHash.Bytes()), nil
+	//return chainhash.DoubleHashB(sigHash.Bytes()), nil
+	return chainhash.HashKeccakB(sigHash.Bytes()), nil
 }
 
 // CalcWitnessSigHash computes the sighash digest for the specified input of

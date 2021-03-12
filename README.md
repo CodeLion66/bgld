@@ -1,10 +1,13 @@
-btcd
+bgld
 ====
 
-[![Build Status](https://github.com/btcsuite/btcd/workflows/Build%20and%20Test/badge.svg)](https://github.com/btcsuite/btcd/actions)
-[![Coverage Status](https://coveralls.io/repos/github/btcsuite/btcd/badge.svg?branch=master)](https://coveralls.io/github/btcsuite/btcd?branch=master)
-[![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/btcsuite/btcd)
+Attention, this is a fork of btcd (excellent project) to support Bitgesell coin.
+This currently can be used as a library of useful functions and it not tested for production use.
+
+Original readme of btcd follows below.
+
+btcd
+====
 
 btcd is an alternative full node bitcoin implementation written in Go (golang).
 

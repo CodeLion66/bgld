@@ -27,7 +27,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/btcsuite/websocket"
 	"github.com/frankcsx/bgld/blockchain"
 	"github.com/frankcsx/bgld/blockchain/indexers"

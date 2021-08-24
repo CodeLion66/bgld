@@ -7,7 +7,7 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/frankcsx/bgld/database"
 )
 

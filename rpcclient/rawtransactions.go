@@ -9,7 +9,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/frankcsx/bgld/btcjson"
 	"github.com/frankcsx/bgld/chaincfg/chainhash"
 	"github.com/frankcsx/bgld/wire"

@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/frankcsx/bgld/blockchain"
 	"github.com/frankcsx/bgld/chaincfg"
 	"github.com/frankcsx/bgld/chaincfg/chainhash"

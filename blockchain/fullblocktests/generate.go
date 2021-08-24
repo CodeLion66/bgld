@@ -18,7 +18,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/frankcsx/bgld/blockchain"
 	"github.com/frankcsx/bgld/btcec"
 	"github.com/frankcsx/bgld/chaincfg"

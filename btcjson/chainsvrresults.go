@@ -11,7 +11,7 @@ import (
 
 	"github.com/frankcsx/bgld/chaincfg/chainhash"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/frankcsx/bgld/wire"
 )
 

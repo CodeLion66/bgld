@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/frankcsx/bgld/blockchain"
 	"github.com/frankcsx/bgld/txscript"
 	"github.com/frankcsx/bgld/wire"

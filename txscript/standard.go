@@ -7,7 +7,7 @@ package txscript
 import (
 	"fmt"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/frankcsx/bgld/chaincfg"
 	"github.com/frankcsx/bgld/wire"
 )

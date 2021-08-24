@@ -22,8 +22,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/bitgesellofficial/bglutil"
-	"github.com/bitgesellofficial/bglutil/bloom"
+	"github.com/frankcsx/bglutil"
+	"github.com/frankcsx/bglutil/bloom"
 	"github.com/frankcsx/bgld/addrmgr"
 	"github.com/frankcsx/bgld/blockchain"
 	"github.com/frankcsx/bgld/blockchain/indexers"

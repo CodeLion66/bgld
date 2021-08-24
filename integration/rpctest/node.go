@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	rpc "github.com/frankcsx/bgld/rpcclient"
 )
 

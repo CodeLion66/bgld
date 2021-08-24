@@ -1,7 +1,7 @@
-module github.com/frankcsx/bgld
+module github.com/bitgesellofficial/bgld
 
 require (
-	github.com/bitgesellofficial/bglutil v1.0.3-0.20210312144754-a8c5831c0fef // indirect
+	github.com/frankcsx/bglutil v1.0.3-0.20210312144754-a8c5831c0fef // indirect
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
 	github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd
 	github.com/btcsuite/goleveldb v1.0.0

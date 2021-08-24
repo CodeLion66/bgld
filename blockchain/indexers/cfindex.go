@@ -7,9 +7,9 @@ package indexers
 import (
 	"errors"
 
-	"github.com/bitgesellofficial/bglutil"
-	"github.com/bitgesellofficial/bglutil/gcs"
-	"github.com/bitgesellofficial/bglutil/gcs/builder"
+	"github.com/frankcsx/bglutil"
+	"github.com/frankcsx/bglutil/gcs"
+	"github.com/frankcsx/bglutil/gcs/builder"
 	"github.com/frankcsx/bgld/blockchain"
 	"github.com/frankcsx/bgld/chaincfg"
 	"github.com/frankcsx/bgld/chaincfg/chainhash"

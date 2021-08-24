@@ -12,7 +12,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/frankcsx/bgld/blockchain"
 	"github.com/frankcsx/bgld/blockchain/indexers"
 	"github.com/frankcsx/bgld/btcjson"

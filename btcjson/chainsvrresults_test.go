@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/frankcsx/bgld/btcjson"
 	"github.com/frankcsx/bgld/chaincfg/chainhash"

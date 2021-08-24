@@ -20,7 +20,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/frankcsx/bgld/blockchain"
 	"github.com/frankcsx/bgld/chaincfg"

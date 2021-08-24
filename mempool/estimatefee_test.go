@@ -9,7 +9,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/frankcsx/bgld/chaincfg/chainhash"
 	"github.com/frankcsx/bgld/mining"
 	"github.com/frankcsx/bgld/wire"

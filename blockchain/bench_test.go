@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 )
 
 // BenchmarkIsCoinBase performs a simple benchmark against the IsCoinBase

@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bglutil"
 	"github.com/frankcsx/bgld/chaincfg"
 	"github.com/frankcsx/bgld/database"
 	_ "github.com/frankcsx/bgld/database/ffldb"

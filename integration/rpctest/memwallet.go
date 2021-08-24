@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/bitgesellofficial/bglutil"
-	"github.com/bitgesellofficial/bglutil/hdkeychain"
+	"github.com/frankcsx/bglutil"
+	"github.com/frankcsx/bglutil/hdkeychain"
 	"github.com/frankcsx/bgld/blockchain"
 	"github.com/frankcsx/bgld/btcec"
 	"github.com/frankcsx/bgld/chaincfg"

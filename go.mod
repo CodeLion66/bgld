@@ -1,4 +1,4 @@
-module github.com/bitgesellofficial/bgld
+module github.com/frankcsx/bgld
 
 require (
 	github.com/frankcsx/bglutil v1.0.3-0.20210312144754-a8c5831c0fef // indirect

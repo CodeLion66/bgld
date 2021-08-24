@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
 )
 
 // defaultTransactionAlloc is the default size used for the backing array

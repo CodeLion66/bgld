@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/bitgesellofficial/bgld/wire"
+	"github.com/frankcsx/bgld/wire"
 )
 
 // TestParsePkScript ensures that the supported script types can be parsed

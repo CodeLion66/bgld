@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/wire"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/wire"
 )
 
 // These variables are the chain proof-of-work limit parameters for each default

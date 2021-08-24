@@ -14,10 +14,10 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/bitgesellofficial/bgld/chaincfg"
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/integration/rpctest"
-	"github.com/bitgesellofficial/bgld/rpcclient"
+	"github.com/frankcsx/bgld/chaincfg"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/integration/rpctest"
+	"github.com/frankcsx/bgld/rpcclient"
 )
 
 func testGetBestBlock(r *rpctest.Harness, t *testing.T) {

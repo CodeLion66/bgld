@@ -10,9 +10,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/bitgesellofficial/bgld/chaincfg"
-	"github.com/bitgesellofficial/bgld/peer"
-	"github.com/bitgesellofficial/bgld/wire"
+	"github.com/frankcsx/bgld/chaincfg"
+	"github.com/frankcsx/bgld/peer"
+	"github.com/frankcsx/bgld/wire"
 )
 
 // mockRemotePeer creates a basic inbound peer listening on the simnet port for

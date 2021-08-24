@@ -15,9 +15,9 @@ import (
 	"runtime/debug"
 	"runtime/pprof"
 
-	"github.com/bitgesellofficial/bgld/blockchain/indexers"
-	"github.com/bitgesellofficial/bgld/database"
-	"github.com/bitgesellofficial/bgld/limits"
+	"github.com/frankcsx/bgld/blockchain/indexers"
+	"github.com/frankcsx/bgld/database"
+	"github.com/frankcsx/bgld/limits"
 )
 
 const (

@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/bitgesellofficial/bgld/btcjson"
+	"github.com/frankcsx/bgld/btcjson"
 )
 
 const (

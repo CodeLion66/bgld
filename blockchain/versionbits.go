@@ -7,7 +7,7 @@ package blockchain
 import (
 	"math"
 
-	"github.com/bitgesellofficial/bgld/chaincfg"
+	"github.com/frankcsx/bgld/chaincfg"
 )
 
 const (

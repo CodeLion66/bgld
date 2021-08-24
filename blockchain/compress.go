@@ -5,8 +5,8 @@
 package blockchain
 
 import (
-	"github.com/bitgesellofficial/bgld/btcec"
-	"github.com/bitgesellofficial/bgld/txscript"
+	"github.com/frankcsx/bgld/btcec"
+	"github.com/frankcsx/bgld/txscript"
 )
 
 // -----------------------------------------------------------------------------

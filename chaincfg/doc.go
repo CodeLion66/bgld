@@ -26,7 +26,7 @@
 //          "log"
 //
 //          "github.com/bitgesellofficial/bglutil"
-//          "github.com/bitgesellofficial/bgld/chaincfg"
+//          "github.com/frankcsx/bgld/chaincfg"
 //  )
 //
 //  var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

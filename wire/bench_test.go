@@ -13,7 +13,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
 )
 
 // genesisCoinbaseTx is the coinbase transaction for the genesis blocks for

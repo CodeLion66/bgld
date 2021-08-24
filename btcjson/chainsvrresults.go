@@ -9,10 +9,10 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
 
-	"github.com/bitgesellofficial/bgld/wire"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/wire"
 )
 
 // GetBlockHeaderVerboseResult models the data from the getblockheader command when

@@ -5,8 +5,8 @@
 package main
 
 import (
-	"github.com/bitgesellofficial/bgld/chaincfg"
-	"github.com/bitgesellofficial/bgld/wire"
+	"github.com/frankcsx/bgld/chaincfg"
+	"github.com/frankcsx/bgld/wire"
 )
 
 // activeNetParams is a pointer to the parameters specific to the

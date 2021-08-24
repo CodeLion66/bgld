@@ -7,8 +7,8 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/bitgesellofficial/bgld/database"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/database"
 )
 
 // maybeAcceptBlock potentially accepts a block into the block chain and, if

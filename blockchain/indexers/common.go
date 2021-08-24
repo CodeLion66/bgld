@@ -11,9 +11,9 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/bitgesellofficial/bgld/blockchain"
-	"github.com/bitgesellofficial/bgld/database"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/blockchain"
+	"github.com/frankcsx/bgld/database"
 )
 
 var (

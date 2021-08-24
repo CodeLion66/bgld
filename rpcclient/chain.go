@@ -10,9 +10,9 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/bitgesellofficial/bgld/btcjson"
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/wire"
+	"github.com/frankcsx/bgld/btcjson"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/wire"
 )
 
 // FutureGetBestBlockHashResult is a future promise to deliver the result of a

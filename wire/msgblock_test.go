@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
 )
 
 // TestBlock tests the MsgBlock API.

@@ -12,10 +12,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/bitgesellofficial/bgld/btcjson"
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/wire"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/btcjson"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/wire"
 )
 
 // FutureDebugLevelResult is a future promise to deliver the result of a

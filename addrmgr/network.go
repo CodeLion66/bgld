@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/bitgesellofficial/bgld/wire"
+	"github.com/frankcsx/bgld/wire"
 )
 
 var (

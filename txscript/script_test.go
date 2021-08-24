@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bitgesellofficial/bgld/wire"
+	"github.com/frankcsx/bgld/wire"
 )
 
 // TestParseOpcode tests for opcode parsing with bad data templates.

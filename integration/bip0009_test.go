@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bitgesellofficial/bgld/blockchain"
-	"github.com/bitgesellofficial/bgld/chaincfg"
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/integration/rpctest"
+	"github.com/frankcsx/bgld/blockchain"
+	"github.com/frankcsx/bgld/chaincfg"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/integration/rpctest"
 )
 
 const (

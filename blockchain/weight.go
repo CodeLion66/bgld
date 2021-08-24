@@ -7,9 +7,9 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/bitgesellofficial/bgld/txscript"
-	"github.com/bitgesellofficial/bgld/wire"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/txscript"
+	"github.com/frankcsx/bgld/wire"
 )
 
 const (

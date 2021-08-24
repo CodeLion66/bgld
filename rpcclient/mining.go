@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/bitgesellofficial/bgld/btcjson"
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/btcjson"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
 )
 
 // FutureGenerateResult is a future promise to deliver the result of a

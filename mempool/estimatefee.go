@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/mining"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/mining"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model

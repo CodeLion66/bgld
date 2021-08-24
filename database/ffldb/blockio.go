@@ -17,9 +17,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/database"
-	"github.com/bitgesellofficial/bgld/wire"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/database"
+	"github.com/frankcsx/bgld/wire"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/bitgesellofficial/bgld/txscript"
+	"github.com/frankcsx/bgld/txscript"
 )
 
 // CreateWalletResult models the result of the createwallet command.

@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/bitgesellofficial/bgld/chaincfg"
-	"github.com/bitgesellofficial/bgld/wire"
+	"github.com/frankcsx/bgld/chaincfg"
+	"github.com/frankcsx/bgld/wire"
 )
 
 const (

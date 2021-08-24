@@ -9,9 +9,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bitgesellofficial/bgld/chaincfg"
-	"github.com/bitgesellofficial/bgld/database"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/chaincfg"
+	"github.com/frankcsx/bgld/database"
 )
 
 // BenchmarkBlockHeader benchmarks how long it takes to load the mainnet genesis

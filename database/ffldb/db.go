@@ -14,10 +14,6 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/database"
-	"github.com/bitgesellofficial/bgld/database/internal/treap"
-	"github.com/bitgesellofficial/bgld/wire"
 	"github.com/bitgesellofficial/bglutil"
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/comparer"
@@ -26,6 +22,10 @@ import (
 	"github.com/btcsuite/goleveldb/leveldb/iterator"
 	"github.com/btcsuite/goleveldb/leveldb/opt"
 	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/database"
+	"github.com/frankcsx/bgld/database/internal/treap"
+	"github.com/frankcsx/bgld/wire"
 )
 
 const (

@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/wire"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/wire"
 )
 
 // Bip16Activation is the timestamp where BIP0016 is valid to use in the

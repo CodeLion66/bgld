@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/bitgesellofficial/bgld/chaincfg"
+	"github.com/frankcsx/bgld/chaincfg"
 )
 
 // TestNotifications ensures that notification callbacks are fired on events.

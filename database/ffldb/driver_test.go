@@ -11,10 +11,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bitgesellofficial/bgld/chaincfg"
-	"github.com/bitgesellofficial/bgld/database"
-	"github.com/bitgesellofficial/bgld/database/ffldb"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/chaincfg"
+	"github.com/frankcsx/bgld/database"
+	"github.com/frankcsx/bgld/database/ffldb"
 )
 
 // dbType is the database type name for this driver.

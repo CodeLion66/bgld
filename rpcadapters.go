@@ -7,13 +7,13 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/bitgesellofficial/bgld/blockchain"
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/mempool"
-	"github.com/bitgesellofficial/bgld/netsync"
-	"github.com/bitgesellofficial/bgld/peer"
-	"github.com/bitgesellofficial/bgld/wire"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/blockchain"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/mempool"
+	"github.com/frankcsx/bgld/netsync"
+	"github.com/frankcsx/bgld/peer"
+	"github.com/frankcsx/bgld/wire"
 )
 
 // rpcPeer provides a peer for use with the RPC server and implements the

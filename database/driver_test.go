@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/bitgesellofficial/bgld/database"
-	_ "github.com/bitgesellofficial/bgld/database/ffldb"
+	"github.com/frankcsx/bgld/database"
+	_ "github.com/frankcsx/bgld/database/ffldb"
 )
 
 var (

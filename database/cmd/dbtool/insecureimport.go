@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/database"
-	"github.com/bitgesellofficial/bgld/wire"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/database"
+	"github.com/frankcsx/bgld/wire"
 )
 
 // importCmd defines the configuration options for the insecureimport command.

@@ -9,8 +9,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/bitgesellofficial/bgld/chaincfg/chainhash"
-	"github.com/bitgesellofficial/bgld/database"
+	"github.com/frankcsx/bgld/chaincfg/chainhash"
+	"github.com/frankcsx/bgld/database"
 )
 
 // fetchBlockCmd defines the configuration options for the fetchblock command.

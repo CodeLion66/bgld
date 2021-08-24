@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bitgesellofficial/bgld/chaincfg"
-	"github.com/bitgesellofficial/bgld/database"
-	_ "github.com/bitgesellofficial/bgld/database/ffldb"
-	"github.com/bitgesellofficial/bgld/wire"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/chaincfg"
+	"github.com/frankcsx/bgld/database"
+	_ "github.com/frankcsx/bgld/database/ffldb"
+	"github.com/frankcsx/bgld/wire"
 )
 
 var (

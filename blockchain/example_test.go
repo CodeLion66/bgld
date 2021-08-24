@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bitgesellofficial/bgld/blockchain"
-	"github.com/bitgesellofficial/bgld/chaincfg"
-	"github.com/bitgesellofficial/bgld/database"
-	_ "github.com/bitgesellofficial/bgld/database/ffldb"
 	"github.com/bitgesellofficial/bglutil"
+	"github.com/frankcsx/bgld/blockchain"
+	"github.com/frankcsx/bgld/chaincfg"
+	"github.com/frankcsx/bgld/database"
+	_ "github.com/frankcsx/bgld/database/ffldb"
 )
 
 // This example demonstrates how to create a new chain instance and use

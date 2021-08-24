@@ -9,10 +9,10 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/frankcsx/bglutil"
 	"github.com/frankcsx/bgld/btcjson"
 	"github.com/frankcsx/bgld/chaincfg/chainhash"
 	"github.com/frankcsx/bgld/wire"
+	"github.com/frankcsx/bglutil"
 )
 
 const (
@@ -371,7 +371,12 @@ func (c *Client) SendRawTransactionAsync(tx *wire.MsgTx, allowHighFees bool) Fut
 
 	// Otherwise, use the AllowHighFees field.
 	default:
-		cmd = btcjson.NewSendRawTransactionCmd(txHex, &allowHighFees)
+		var maxFeeRate int32
+		if !allowHighFees {
+			maxFeeRate = defaultMaxFeeRate
+		}
+		cmd = btcjson.NewBitcoindSendRawTransactionCmd(txHex, maxFeeRate)
+		//cmd = btcjson.NewBitcoindSendRawTransactionCmd(txHex, &maxFeeRate)
 	}
 
 	return c.sendCmd(cmd)

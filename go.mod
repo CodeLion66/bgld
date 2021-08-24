@@ -1,7 +1,6 @@
 module github.com/frankcsx/bgld
 
 require (
-	github.com/frankcsx/bglutil v1.0.3-0.20210312144754-a8c5831c0fef // indirect
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
 	github.com/btcsuite/go-socks v0.0.0-20170105172521-4720035b7bfd
 	github.com/btcsuite/goleveldb v1.0.0
@@ -10,9 +9,15 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/decred/dcrd/lru v1.0.0
 	github.com/ebfe/keccak v0.0.0-20150115210727-5cc570678d1b
+	github.com/frankcsx/bglutil v1.0.3
+	github.com/fsnotify/fsnotify v1.5.0 // indirect
+	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/hpcloud/tail v1.0.0 // indirect
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/jrick/logrotate v1.0.0
 	golang.org/x/crypto v0.0.0-20200510223506-06a226fb4e37
+	gopkg.in/fsnotify.v1 v1.4.7 // indirect
+	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
 )
 
 go 1.14
